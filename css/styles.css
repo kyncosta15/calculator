@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #dbdddf;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 10px;
+  color: #202020;
+}
+
+.box-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 290px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 49px;
+  background-color: #e0e0e0;
+  box-shadow: -11px 11px 49px #989898, 11px -11px 49px #ffffff;
+}
+
+.btn-clr {
+  display: flex;
+  gap: 0;
+  max-width: 420px;
+}
+
+.clear-field {
+  margin-top: 10px;
+  border: 1px solid #7c7a7a;
+  background-color: #dbdddf;
+  color: #7c7a7a;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.clear-field:hover {
+  background-color: #749ec9;
+  border: 0px solid #000000;
+  color: #fff;
+}
+
+.box-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 58px;
+  margin-top: 20px;
+}
+
+.button-sum,
+.button-sub,
+.button-mul,
+.button-div {
+  width: 60px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.button-sum {
+  border: none;
+  background-color: #6caf75;
+  color: #fff;
+  cursor: pointer;
+}
+.button-sub {
+  border: none;
+  background-color: #9067dd;
+  color: #fff;
+  cursor: pointer;
+}
+.button-mul {
+  border: none;
+  background-color: #528359;
+  color: #fff;
+  cursor: pointer;
+}
+.button-div {
+  border: none;
+  background-color: #506b54;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-sum:hover {
+  background-color: #73b67c;
+}
+.button-sub:hover {
+  background-color: #9882c0;
+}
+.button-mul:hover {
+  background-color: #5f9267;
+}
+.button-div:hover {
+  background-color: #5a7c5f;
+}
+
+.btn-result {
+  margin-top: 10px;
+}
+
+#my-button {
+  width: 410px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3e66d3;
+  color: #fff;
+  cursor: pointer;
+}
+
+#my-button:hover {
+  background-color: #5a79ce;
+}
+
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  border: 1px solid #93c57267;
+  border-radius: 8px;
+  width: 60%;
+  height: 40px;
+  background-color: #b9e99994;
+}
+
+.box-input input,
+.box-input label {
+  margin-top: 10px;
+}
+
+.box-input input[type="number"] {
+  width: 60vh;
+  height: 35px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #b4b2b2;
+}
+
+::placeholder {
+  font-family: "Segoe UI";
+  font-size: 1rem;
+}
+
+.box-input input {
+  padding-left: 5px;
+}
+
+#reset {
+  width: 410px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3e66d3;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
